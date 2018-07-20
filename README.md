@@ -111,6 +111,9 @@ bumpversion $$VERSION_PART_TO_BUMP$$
 git push && git push --tags
 make release
 ```
+or
+#To run on a container
+docker build -t friendlyhello .
 
 
 #### How to bumpversion
